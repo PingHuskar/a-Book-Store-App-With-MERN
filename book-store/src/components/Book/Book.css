@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+li {
+    padding: 10px;
+    width: 250px;
+    max-width: 250px;
+    max-height: 400px;
+}
+
+.card {
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 10px #ccc;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card > img {
+    width: 100%;
+    height: 50%;
+}
+
+.card h3 {
+    margin:0;
+    padding:4px;
+}
+
+.card p {
+    margin: 0;
+    padding: 3px;
+}
+.card h2 {
+    margin: 0;
+}
+.card article {
+    padding: 5px;
+}
