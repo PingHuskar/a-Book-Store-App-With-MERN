@@ -1,0 +1,10 @@
+version: '1.0'
+
+services:
+  nodeapp:
+    container_name: nodeapp
+    image: pinghuskar/nodeapp
+    build:
+      context: backend
+    ports:
+      - "5000:5000"
